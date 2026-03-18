@@ -1,0 +1,156 @@
+body{
+    background-image: url(images/R.jpg);
+}
+
+nav{
+    overflow: hidden;
+    top: 0;
+    left: o;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 150px;
+    background-image: url(images/image_5.jpeg);
+    height: 70px;
+    position: relative;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    margin-right: 25em;
+    list-style: none;
+    position: relative;
+}
+nav ul a{
+    font-size: 20px;
+    color: rgb(27, 19, 139);
+    text-decoration: none;
+    
+}
+section{
+    color: bisque;
+    padding: 10%;
+}
+ 
+.logo{
+    width: 120px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.content{
+    
+    color: white;
+    
+}
+
+.content h1{
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.content p{
+    font-size: 30px;
+    text-align: center;
+}
+
+.nav a:hover{
+    background: rgb(238, 120, 136);
+    color: white;
+}
+
+.footer {
+  background-image: url('images/image_5.jpeg'); 
+  background-repeat: no-repeat;           
+  background-position: center;           
+  background-size: cover;              
+  height: 60px;                          
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;                            
+  background-color: #000;              
+}
+
+section p{
+     font-size: 30px;
+    text-align: start;
+}
+
+section ul{
+     font-size: 30px;
+    text-align: left;
+}
+
+
+.social-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;              /* spacing between boxes */
+  margin: 40px 0;
+}
+
+.social-box {
+  background-color: #222; /* dark background */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.social-box button {
+  background-color: #2d0479; /* button color */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.social-box button:hover {
+  background-color: #11bfeb; /* hover effect */
+
+}
+
+.heading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.Services{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+p2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+.BS{
+    width: 400px;
+    margin-left: 20px;
+}
+
+.Assassins{
+    width: 400px;
+    margin-left: 20px;
+}
